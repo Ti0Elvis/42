@@ -12,6 +12,8 @@ int ft_isprint(int c);
 
 // Function prototypes for string manipulation functions
 size_t ft_strlen(const char *str);
+size_t ft_strlcpy(char *dest, const char *src, size_t size);
+size_t ft_strlcat(char *dest, const char *src, size_t size);
 
 // Function prototypes for memory management functions
 void ft_bzero(void *buffer, size_t n);
