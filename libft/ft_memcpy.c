@@ -8,7 +8,7 @@ void *ft_memcpy(void *dest, const void *src, size_t n)
     
     if (!dest || !src || n == 0)
     {
-        return;
+        return (NULL);
     }
     i = 0;
     buffer_dest = (unsigned char *)dest;
